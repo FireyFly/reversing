@@ -1,0 +1,125 @@
+## Format
+
+  (header)
+    41 43 4d 50  magic: "STEX"
+    2c 06 00 00  BLZ data size
+    20 00 00 00  header size
+    00 00 00 00
+    80 10 00 00  decompressed filesize
+    67 45 23 01  0x1234567
+    67 45 23 01  0x1234567
+    67 45 23 01  0x1234567
+
+  (compressed data)
+
+  (trailer)
+    2c 06 00     compressed size
+             08  "trailer size" -- compression method
+    54 0a 00 00  decompressed increase
+
+    http://projectpokemon.org/wiki/Compression
+
+
+## ($08 compression) HomeMenuCOMPRESSed.STEX {{{
+
+### Plaintext
+000 66 66 66 00 00 00 ff ff  00 00 00 00 00 00 00 00
+010 66 66 66 00 00 00 ff ff  00 00 00 00 00 00 00 00
+020 66 66 66 00 00 00 ff ff  00 00 00 00 00 00 00 00
+030 66 66 66 00 00 00 ff ff  00 00 00 00 00 00 00 00
+040 66 66 66 00 00 00 ff ff  00 00 00 00 00 00 00 00
+050 66 66 66 00 00 00 ff ff  00 00 00 00 00 00 00 00
+060 66 66 66 00 00 00 ff ff  00 00 00 00 00 00 00 00
+070 66 66 66 00 00 00 ff ff  00 00 00 01 00 08 00 4f
+    ...
+
+### Instruction stream
+     66 66 66 00 00 00 ff ff
+    [00 02]  copy  0+3 bytes skipping back  2+3 bytes
+    [00 00]  copy  0+3 bytes skipping back  0+3 bytes
+     00 00
+    [d0 0d]  copy 13+3 bytes skipping back 13+3 bytes
+    [f0 1d]  copy 15+3 bytes skipping back 29+3 bytes
+    [f0 1d]  copy 15+3 bytes skipping back 29+3 bytes
+    [f0 1d]  copy 15+3 bytes skipping back 29+3 bytes
+    [f0 1d]  copy 15+3 bytes skipping back 29+3 bytes
+    [f0 1d]  copy 15+3 bytes skipping back 29+3 bytes
+  >  00 01 00 08 00 4f
+    [f0 1d]
+    [60 0d] 05 00 09 00 0e [60 0d]
+    ...
+
+### Raw data
+    00  66 66 66 00 00 00 ff ff
+    cf  [00 02] [00 00] 00 00 [d0 0d] [f0 1d] [f0 1d] [f0 1d]
+    c0  [f0 1d] [f0 1d] 00 01 00 08 00 4f
+    c1  [f0 1d] [60 0d] 05 00 09 00 0e [60 0d]
+    01  df 08 ff 1e ff 8f ff [50 0d]
+    0c  df ff ff ff [00 00] [60 0d] 00 3f
+    02  00 7f 00 9f 00 bf 60 0d ff 7e 00
+    10 01 60 1d 40 2c d0 0d 70 3d c0 2d 00 47 bf 00
+    4b 7f 00 3f f0 2d f0 3d 20 2d 5a 0e 00 ab 05 f0
+    ed b0 2d df 60 2d 8f bd 00 cb 08 00 d3 f0 2d f0
+    3d 20 0d 4f 01 2b 7f 01 f0 1d f0 2d f0 1d f0 1d
+    f0 1d f0 1d f0 1d 88 e0 1d 04 01 8f 80 0d 03 00
+    3e 22 03 ef 50 0d 2e ff cf a1 1d 2c 30 ff ef f1
+    ...
+}}}
+
+
+## ($09 compression) ECYLINDEROFFSETTABLE.TBL
+  (header)
+    41 43 4d 50
+    50 00 00 00
+    20 00 00 00
+    00 00 00 00
+    b8 00 00 00
+    67 45 23 01
+    67 45 23 01
+    67 45 23 01
+
+  (reversed data)
+    1e  00 00 00 [00 00] [30 03] [90 09] [90 09] 44
+    54  4d [00 01] 7a [b0 0d] c4 [80 0d] c4 09
+    0a  80 00 43 a5 [b0 0d] c3 [40 0d] 43
+    48  c8 [00 2d] a7 80 60 19 43 d7 00 15 00 42
+    48 00 05 02 b0 0d c3 50 0d b8 10 2d bb 70 2d f0 8b 20 02 0b
+
+  (trailer)
+    ff ff
+    50 00 00 0a
+    68 00 00 00
+
+
+## ($09 compression) IG_CAM_BG_U_01.STEX
+    34 4e 01 00  compressed filesize - header size
+    80 00 04 00  decompressed filesize
+
+    $0002b24c <+-{09}-- $00014e30
+
+    ff
+
+    00 bf b3 c7 b3 c7 b3 bf b3
+    ff [50 05] [d0 0d] [10 07] [90 09] [d0 0d] [f0 2d] [f0 3d] [f0 3d]
+    ff [f0 19] [50 09] [f0 19] [b0 25] [f0 19] [f0 3d] [f0 21] [f0 3d]
+    ff f0 19 f0 9d f0 19 f0 5d f0 21 f0
+    31 f0 3d f0 19 ff f0 9d f0 19 f0 5d f0 2d f0 31
+    f0 3d f0 19 f0 9d ff f0 19 f0 5d f1 7d f0 3d f0
+    3d f0 19 f0 9d f0 19 ff f0 5d f1 7d f0 3d f0 3d
+    f0 19 f0 9d f0 19 f0 5d ff f1 7d f0 3d f0 3d f0
+    19 f0 9d f0 19 f0 5d f1 7d ff f0 3d f0 19 f0 3d
+    f0 25 f0 19 f0 5d f1 7d f0 3d ff f0 3d f0 3d f0
+    25 f0 9d f0 25 f1 7d f0 3d f0 3d ff f0 3d f0 19
+    f0 9d f0 25 f0 19 f0 3d f0 21 f0 3d ff f0 19 f0
+    9d f0 19 f0 5d f0 21 f0 31 f0 3d f0 19 ff f0 9d
+    f0 19 f0 5d f0 2d f0 31 f0 3d f0 19 f0 9d ff f0
+    19 f0 5d f1 7d f0 3d f0 3d f0 19 f0 9d f0 19 ff
+    f0 5d f1 7d f0 3d f0 3d f0 19 f0 9d f0 19 f0 5d
+    ff f1 7d f0 3d f0 3d f0 19 f0 9d f0 19 f0 5d f1
+    7d ff f0 3d f0 19 f0 3d f0 25 f0 19 f0 5d f1 7d
+    f0 3d ff f0 3d f0 3d f0 25 f0 9d f0 25 f1 7d f0
+    3d f0 3d f1 f0 3d f0 19 d0 9d b0 4d 13 05 c7 10
+    01 fc 60 15 30 0d f0 3d f0 3d f0 3d 70 3d 13 05
+    df 10 01 30 03 1b a0 0b f0 15 70 07 90 27 90 09
+
+vim: set ft=hexd:

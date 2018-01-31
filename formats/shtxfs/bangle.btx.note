@@ -1,0 +1,78 @@
+    fc aa 55 a7  magic
+    55 a8 00 00  decompressed size
+    db a7 00 00  filesize size
+
+          G  X  3
+    20 cb 47 58 33 00
+
+
+    fc aa 55 a7  magic
+    b0 55 01 00  decompressed size
+    49 a8 00 00  compressed size
+
+       magic       version     #textures   texOffset   texSize
+>   12 47 58 54 00 03 00 00 10 01 00 00 00 40 00 00 00 70 55
+
+    80 0a      copy 4 bytes 10 back
+    46 00      10× [00]
+    e0 14      copy 7 bytes 20 back
+    61         copy 1 byte 4 back
+    40 ff       4× [ff]
+    47 00      11× [00]
+>   1f 87 00 01 00 01 09 00 00 00 fa f9 49 92 24 41 02 24 45 29 e3 18 a8 55 b6 26 fa f9 48 92 20 01
+
+    c0 10      copy 6 bytes 16 back
+    40 26       4× [26]
+    08 fa f9 49 90 04 09 82 00
+    80 20      copy 4 bytes 32 back
+    03 aa 55 aa
+    a0 30      copy 5 bytes 48 back
+    0c 04 49 92 24 65 29 45 29 2a aa 0a 8e
+    a0 10      copy 5 bytes 16 back
+    03 09 92 20
+    e0 30      copy 7 bytes 48 back
+
+    64 04 92 00 49 02 a0 30 e0 10
+    61 03 20 09 12 a0 30 14 ae ae aa 2a fa f9 41 92
+    20 49 02 00 66 29 45 29 aa aa aa ba a0 20 01 41
+    c0 40 c0 60 03 09 92 24 e0 60 40 aa 07 fa f9 40
+    12 20 41 82 a0 a0 c0 80 02 01 12 e0 80 61 0c ba
+    ba ba fa fa f9 49 82 24 49 80 57 22 e1 09 bc fa
+    f9 40 92 04 49 02 00 80 a0 04 3c 2a 82 aa a0 d0
+    e0 b0 02 fa ab 80 50 03 41 92 24 e0 20 40 aa 08
+    fd fa 04 60 9b 49 e2 d8 e0 f0 61 08 fb fa 09 10
+    20 49 12 04 e1 00 61 0b fd fa 00 60 db 49 62 c7
+    65 29 46 a0 90 07 fb fa 00 12 00 40 80 e0 70 61
+    07 aa fb fa 08 80 24 01 e0 f0 63 07 fb fa 41 12
+    ...
+
+    ----------------------------------------------------
+
+    000xxxxx           copy x bytes verbatim
+    001xxxxx xxxxxxxx  copy x bytes verbatim (?) -- offset?
+    0100xxxx yyyyyyyy  (x+4) copies of y
+    01100001           copy last byte verbatim
+    1xx00000 yyyyyyyy  copy (x+4) bytes from history, y bytes back
+
+    -----------------------------------------------------
+
+    magic        version      #textures    texOffset    texSize      #P4pal       #P8pal       padding
+    47 58 54 00  03 00 00 10  01 00 00 00  40 00 00 00  70 55[01 00  00 00|00 00  00 00 00 00  00 00 00 00]
+
+    offset       size                      not used?    texType      texBaseFmt                mipmp  pad
+   [40 00 00 00  70 55 01 00][ff ff ff ff][00 00 00 00  00 00 00 00  00 00 00]87  00 01 00 01  09 00  00 00
+
+    -----------------------------------------------------
+
+>   47 58 54 00 03 00 00 10 01 00 00 00 40 00 00 00
+    70 55[01 00 00 00|00 00 00 00 00 00 00 00 00 00]
+>  [40 00 00 00 70 55 01|00]ff ff ff ff|00 00 00 00
+    00 00 00 00 00 00 00]87 00 01 00 01 09 00 00 00
+>   fa f9 49 92 24 41 02 24 45 29 e3 18 a8 55 b6 26
+    fa f9 48 92 20 01[02 24 45 29 e3 18|26 26 26 26]
+    fa f9 49 90 04 09 82 00[45 29 e3 18]aa 55 aa[00
+    fa f9 49 92]04 49 92 24 65 29 45 29 2a aa 0a 8e
+   [fa f9 49 92 04]09 92 20[45 29 e3 18 26 26 26|45]
+
+
+    vim: set ft=hexd ve=all tw=0:

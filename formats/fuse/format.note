@@ -1,0 +1,194 @@
+    csv: checksum?, file path, decompressed size, offset
+
+    compression:
+      u32 filesize | 0x40000000
+      (compressed data)
+
+      * copy `x` bytes from file, then `y` bytes from history with offset `z`
+        - 0yyyxxzz zzzzzzzz                               y = y + 3,               z = z + 1
+        - 10yyyyyy xxzzzzzz zzzzzzzz                      y = y + 4                z = z + 1
+        - 110xxyyy zzzzzzzz zzzzzzzz yyyyyyyy             y = y1 * 0x80 + y2 + 5,  z = z + 1
+        - 111xxxxx                             x = 4*(x + 1)
+
+    46 55 53 45 31 2e 30 30  magic: FUSE1.00
+    95 2f 00 00 00 00 00 00  #files
+    10 1d 53 0d              total filesize
+
+    d1 00 00 40 e0 0e 00 00 00 04 03 d8 04 03 1c 04
+    03 30 44 0b 08 44 0b 04 93 40 0b 14 44 0b 18 10
+    04 18 08 02 40 e0 00 00 fc 0a 38 09 f1 0b 30 00
+    e8 0c ef e2 0b 24 7e f1 0b 0c f2 e2 0b 2c ed e2
+    0b dc c4 f1 0b ec f0 e2 0b 6c ec e2 0b 4c be f1
+    0b 4c eb e2 0b 04 03 ac eb 24 8c f1 0b ac ee e2
+    0b 42 69 74 31 00 61 76 65 49 3a 00 c0 c2 dd 01
+    d0 b3 ff 0b 20 0c 80 6b 00 48 90 13 00 46 ff 2f
+    00 c0 ea 01 de 01 01 de de 00 27 24 27 32 e3 fa
+    eb ff 01 20 da b3 ff 0a 7e 04 e0 1a 00 00 f4 4c
+    1f ec 3f 00 44 47 33 e0 80 02 e7 00 0c 44 0c 13
+    00 04 4e 00 58 3f 00 00 34 3f 34 e4 5f bf 02 00
+    81 46 04 80 02 00 64 bf 06 00 00 7c 00 b0 00 00
+    18 23 47 04 fc
+
+    FUSE1.00
+    Bit1
+    PetSpotIcon
+    Hotspot1
+    Brick_3DS
+    Brick_small_3DS
+    Bit01
+    polySurface1
+    Engine1
+    Body1
+    Wheel2
+    Hose_pipe
+    Water_Cannon
+    tank
+    Hose_pipe
+    IceCream_Van
+    Wheel
+    Light
+
+3dsdata/models/pickup_debris_100scale/pickup_debris_100scalespin.fnanm
+
+    cc 00 00 40 e0 05 00 00 00 04 03 cc 04 03 1c 44
+    03 0c 04 03 88 04 03 10 08 07 00 01 14 08 40 e0
+    00 00 9c 84 38 09 f0 0b 30 00 f8 fc 68 f0 0b ec
+    72 ee 0b dc 6d f0 0b 42 72 69 63 6b 5f 33 44 53
+    00 70 70 49 bf c3 7d 83 3c 0a 3d 4b 26 9f f4 0e
+    4b a1 16 00 40 73 dc 7f bb ae bf 2d b6 a3 26 d2
+    e4 51 5d ff c2 a2 b0 b5 2f 6c a5 29 38 ff 80 02
+    00 a0 50 12 1f e9 cd 98 1b a6 bb f8 fe 82 07 81
+    b8 49 87 ae 35 b2 61 95 25 da fc c3 10 43 f4 00
+    20 ed f0 a0 ec ff 1f 70 4a b7 e7 f8 7c ad 0d 96
+    1c 80 00 64 e5 04 00 00 04 00 07 1c 3b 5e 80 9a
+    a9 a9 9a 80 5e 3b 1c 07 00 db ff 7f a0 84 1c cb
+    e7 65 a7 2c 83 00 08 18 98 50 8b 80 00 09 01 fc
+
+
+## scriptfns.txt
+
+    "ScriptFns\r\n{\r\n\tFunct" "ion" ("\r\n\t") ("{\r\n\t")
+    "\tName(getConsoleType" ")" ("\r\n\t\t")
+    "Argument(1, number, {0 ds,1 psp," "2 3" ("ds,")
+    "3" (" psp")
+    "2})\t" "\t" ("\r\n\t")
+    "}\r\n" ("\r\n\tFunction\r\n\t{\r\n\t\tName(")
+    "EnableObject" "Fad" ("e)\r\n\t\tArgument(1, ")
+    "o" ("bject")
+    ", " ("Object")
+
+ 11 ||ScriptFns
+  3 ||{
+ 11 ||	Function
+  4 ||	{
+ 24 ||		Name(getConsoleType)
+ 52 ||		Argument(1, number, {0 ds,1 psp,2 3ds,3 psp2})		
+  4 ||	}
+  2 ||
+ 11 ||	Function
+  4 ||	{
+ 26 ||		Name(EnableObjectFade)
+ 12 ||		Argument(1, object, Object
+
+    8e c0 62     46 61 64
+                 F  a  d
+    24 1a        6f            copy 5 at $1b
+                 o
+    38 22        2c 20
+                 ,
+
+    "\r\n\tFunction\r\n\t{\r\n\t\tName("
+    "...Function...{....Name("
+
+    e0:       copy 4*1 bytes
+    e1:       copy 4*2 bytes
+    e2:       copy 4*3 bytes
+    e3:       copy 4*4 bytes
+    0c 0a:    copy 3, copy  3 at offset $0b
+    0c 0b:    copy 3, copy  3 at offset $0c
+    10 0e:    copy 0, copy  4 at offset $0f
+    14 17:    copy 1, copy  4 at offset $18
+    14 0b:    copy 1, copy  4 at offset $0c
+    94 c0 60  copy 3, copy 24 at offset $61
+    8e c0 62  copy 3, copy 18 at offset $63
+
+    00  0 3
+    04  1 3
+    08  2 3
+    0c  3 3
+    10  0 4
+    14  1 4
+
+    e3 1d 00 40  length | 0x40000000
+    e4           53 63 72 69 70 74 46 6e 73 0d 0a 7b 0d 0a 09 46 75 6e 63 74
+                 S  c  r  i  p  t  F  n  s  .  .  {  .  .  .  F  u  n  c  t
+    0c 0a        69 6f 6e
+                 i  o  n
+    10 0e
+    e4           09 4e 61 6d 65 28 67 65 74 43 6f 6e 73 6f 6c 65 54 79 70 65
+                 .  N  a  m  e  (  g  e  t  C  o  n  s  o  l  e  T  y  p  e
+    14 17        29
+                 )
+    e7           41 72 67 75 6d 65 6e 74 28 31 2c 20 6e 75 6d 62 65 72 2c 20 7b 30 20 64 73 2c 31 20 70 73 70 2c
+                 A  r  g  u  m  e  n  t  (  1  ,     n  u  m  b  e  r  ,     {  0     d  s  ,  1     p  s  p  ,
+    0c 0b        32 20 33
+                 2     3
+    14 0b        33
+                 3
+    e0           32 7d 29 09
+                 2  }  )  .
+    04 33        09
+    94 c0 60     7d 0d 0a
+                 }  .  .
+    e2           45 6e 61 62 6c 65 4f 62 6a 65 63 74
+                 E  n  a  b  l  e  O  b  j  e  c  t
+    8e c0 62     46 61 64
+                 F  a  d
+    24 1a        6f
+                 o
+    38 22        2c 20
+                 ,
+    8a 00 1e
+    89 40 81     32
+
+    e0           2d 20 64 69
+                 -     d  i
+    14 4d        73 0c 0c 2c 20 31 24 59 65 14 31 7d 97 00 7f
+                 s  .  .  ,     1  $  Y  e
+    e2           50 72 69 6e 74 44 65 62 75 67 53 74
+                 P  r  i  n  t  D  e  b  u  g  S  t
+    00 0a        8d 40 7f 67 24 16 73 38 1e 2c 20
+    1c           65 20 74 6f
+                 e     t  o
+    e0           70 6c 61 79
+                 p  l  a  y
+    95 00        8a
+    e0           6c 69 6e 65
+                 l  i  n  e
+    40 0c
+    87 00        2e 40 48
+                 .  @  H
+    e1           20 6f 6e 20 5b 30 2d 37
+                    o  n     [  0  -  7
+    9c 40
+
+
+    97 5d 1c 14 6f 73 69 90 00 f6 87 01 15 34 08 7b 10 67 44 31 70 41 73 89 00 9a 8b 00 2e 18 2d 27 73 10 2c 10 38
+    e0 62 65 20 75  7d ab  73 65 64 10 06 9f 00 94 e0 4f 66 66 73 c8 00 9a 67 65 70 37 75 6d 33 3c 88 7b 58 20
+    e0 20 66 72 6f  46 26  6d 8d 00 30 87 40 30 34 a0 40 30 59 87 40 30 35 96 40 30 5a 97 01 c1
+    e3 41 64 64 43 68 61 72 61 63 74 65 72 54 6f 50 61  8b 82  32 72 74 88 01 2b 60 29 10 f5 00 39 10 06 20 32 b1 00 67 04 ba 45 8d 00 6b 04 14 65 89 00 69 10 25 8d 00
+    6e 1f 36 2c 20 54 38 06 73 2f 60 2d e0 73 2e 78
+    6c b0 c0 8d 73 3a 30 99 03 d6 b8 00 f9 e0 52 65
+    6d 6f 68 40 76 65 05 9d 46 92 01 66 8d 00 fa 00
+    63 30 3c 31 d2 c0 00 fa 41 e1 45 6e 64 4c 65 76
+    65 6c 23 d9 00 2b 94 00 27 e1 53 68 6f 77 54 69
+    70 54 82 84 78 65 78 94 00 ae 0f 3d 48 69 6e 00
+    ...
+
+
+-----------------------------------------------------------------------------
+
+  3ds_hp2.code: @1975d4: "lego_hp2_3ds.fib"
+
+
+vim: set ft=hexd:

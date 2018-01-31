@@ -1,0 +1,893 @@
+comment
+create by YsExcelToJson / ver.1.0.0
+file
+D:/work/pj023/sound/SoundDisableCallFrame.xlsx
+
+  94 = un
+  95 = ar
+  96 = ER
+  97 = te
+  99 = t/
+  b1 = er
+  b8 = /p
+  e0
+  f2 = \r\n
+
+create by YsRunVer2
+args: S:/work/pj023/project/tool/bin/YsRunVer2.rb (..)run(..)"(..)(..)s32 PLAYER_NUM (..)1(..)
+
+              c   left  right
+              --  ----  -----
+  fe          7f
+  7f          (read 127 entries)
+  93
+     75       80    93     75
+  6e 13       81    6e     13
+  61 72       82    61     72
+  45 52       83
+  74 65       84
+  7d ef       85
+  74 2f       86
+  e0 9b       87
+  50 9c       88
+  72 9d       89
+  ee 9e       8a
+  ee 9f       8b
+  79 a0       8c
+  70 a1       8d
+  65 a3       8e
+  a2 47       8f
+  a4 a5       90
+  22 a6       91
+  e0 cf       92
+  65 ef       93
+  a8 e3       94
+  ab 81       95
+  b9 d0       96
+  00 83       97
+  8b 82       98
+  81 5b       99
+  0b 69       9a
+  b3          9b
+  b2 65       9c
+  b4 77       9d
+  b6 b5       9e
+  65 72       9f
+  b7 2f       a0
+  70 f6       a1
+  ba 7b       a2
+  f6 f1       a3
+  f5 bf       a4
+  41 81       a5
+  eb 81       a6
+  03 20       a7
+  82 c1       a8
+  d8 ec       a9
+  83 c7       aa
+  82 52       ab
+  c8 03       ac
+  c9 67       ad
+  d5 d6       ae
+  8b cb       af
+  4e ce       b0
+  81 d3       b1
+  b5 0c       b2
+  61 6d       b3
+  d1 df       b4
+  da e5       b5
+  82 a2       b6
+  93 d4       b7
+  ae 82       b8
+  83 81       b9
+  83 d7
+  93 83
+  82 dc
+  f3 f2
+  09 db
+  de 20
+  81 e2
+  72 08
+  e1 22
+  2d 2d
+  3d 20
+  73 74
+  62 e4
+  6f ee
+  4d e6
+  45 e7
+  ed 20
+  82 82
+  c6 13
+  82 b7
+  4e 55
+  6f 74
+  f6 f6
+  f0 f5
+  f5 f3
+  20
+  f6 f4
+  2f 2f
+  f7 f7
+  0d 0a
+  f8 f8
+  f9 f9
+  fa fa
+  fb fb
+  fc fc
+  fd fd
+  fe fe
+  ff ff
+  00 00
+  01
+
+  ae f4
+
+
+  0: bonus_game                               5a6ccba8 0100        0 000002b0
+  1: color_correction_param                   12196a6e 0100        0 000002c0
+  2: demo_script                              a18beff1 0100        0 00000340
+  3: dof_param                                cc3b9429 0100        0 00000390
+  4: drawenv                                  4c69c80f 0100        0 00000910
+  5: drc                                      001ce109 0100        0 00000fc0
+  6: enemy                                    59b1ec86 0100        0 00000fd0
+  7: fog                                      001d7214 0100        0 00001160
+  8: foot_shadow                              64f93d6d 0100        0 000013a0
+  9: fxaa_param                               c3560f00 0100        0 000013b0
+ 10: glare_param                              a5bf0383 0100        0 00001420
+ 11: keito                                    d64dbc24 0100        0 00001880
+ 12: light                                    ebe96020 0100        0 000018b0
+ 13: mapdata                                  79f41c80 0100        0 000023b0
+ 14: minigame                                 bf057fbf 0100        0 00002900
+ 15: shadowmap                                c337fcb4 0100        0 00002980
+ 16: stage                                    809250dc 0100        0 00002f80
+ 17: wool_param                               2729aa09 0100        0 00002f90
+ 18: worldmap                                 28324b06 0100        0 00002fa0
+ 19: bootConfig.txt                           b016df90 0000      143 00008000
+ 20: bootConfig.txt.sample                    ad998750 0000      315 0000a000
+ 21: bootConfig.txt.viewer_sample             f73dde71 0000      403 0000c000
+ 22: CraftWoolColorParam.txt                  8e4bf647 0000     3544 0000e000
+ 23: dentParam.txt                            15227012 0000     1141 00010000
+ 24: fogParam.txt                             874c0323 0000     2921 00012000
+ 25: gameCameraParam.txt                      186ff5da 0000   112647 00014000
+ 26: gameConfig.txt                           1848b39e 0000     1294 00030000
+ 27: GameFlag.bson                            39699f44 0000    74280 00032000
+ 28: gimmickConfig.txt                        2051c4ad 0000    77237 00046000
+ 29: itemConfig.txt                           459a12e3 0000    10101 0005a000
+ 30: modelViewer.txt                          e496fa81 0000     3576 0005e000
+ 31: modelViewer_default.txt                  0159079d 0000     1984 00060000
+ 32: objectConfig.txt                         80bbfa5b 0000      239 00062000
+ 33: objectFrustumParam.txt                   993bbf3c 0000     2460 00064000
+ 34: objectMngConfig.txt                      40b39e05 0000      498 00066000
+ 35: playerConfig.txt                         59f2aa71 0000    85905 00068000
+ 36: StageList.bson                           8f8b0018 0000   238136 0007e000
+ 37: terrainConfig.txt                        e1500399 0000     4743 000ba000
+ 38: ToolControl.txt                          34a1b7f5 0000      134 000bc000
+ 39: worlddata.txt                            3c937938 8000     3919 000be000
+ 40: bonusGameConfig.txt                      4e279ae5 8000      478 000c0000
+ 41: DEFAULT_000.txt                          7c0b98aa 0000      227 000c2000
+ 42: map008_000.txt                           e36242d3 0000      228 000c4000
+ 43: MAP031_HOTDOG_MASTER_000.txt             70c15406 0000      228 000c6000
+ 44: sample_night_000.txt                     e6a69000 0000      260 000c8000
+ 45: sample_sunset_000.txt                    d095b988 0000      261 000ca000
+ 46: TEST_KURAOKA_000.txt                     f2c1740a 0000      227 000cc000
+ 47: TEST_KURAOKA_001.txt                     07c0bfab 0000      259 000ce000
+ 48: worldmap_000.txt                         7d3c895b 8000      228 000d0000
+ 49: worldmap                                 28324b06 0100        0 00000370
+ 50: demo_script_param.txt                    5d31daa7 0000      185 000d2000
+ 51: demo_test_0000.txt                       d537d4a9 8000     2304 000d4000
+ 52: wmdemo_sample.txt                        f5496d50 0000     2308 000d6000
+ 53: wmdemo_test.txt                          7480f766 8000     2545 000d8000
+ 54: BOSS_MAP004_DONBURI_MASTER_000.txt       4d73a43a 0000      866 000da000
+ 55: BOSS_MAP005_DOSSUN_MASTER_000.txt        e645446c 0000      866 000dc000
+ 56: BOSS_MAP006_BIG_HOTDOGN_MASTER_000.txt   624875dd 0000      865 000de000
+ 57: BOSS_MAP006_SPHINX_MASTER_000.txt        16954903 0000      866 000e0000
+ 58: BOSS_MAP060_BIG_PATAPATA1_MASTER_000.txt afeb9b27 0000      866 000e2000
+ 59: DEFAULT_000.txt                          7c0b98aa 0000      867 000e4000
+ 60: fade_max_000.txt                         fd90430a 0000      866 000e6000
+ 61: fade_min_000.txt                         c7c0a0c8 0000      865 000e8000
+ 62: MAP002_OSORA_MASTER_000.txt              4598cb4b 0000      867 000ea000
+ 63: MAP003_HORRORSAN_MASTER_000.txt          19089a36 0000      867 000ec000
+ 64: MAP004_SUSUME_MASTER_000.txt             93d9cec3 0000      865 000ee000
+ 65: MAP005_BIYOYON_MASTER_000.txt            ebc175d3 0000      866 000f0000
+ 66: MAP006_KOWAMOTE_MASTER_000.txt           52dd6fd2 0000      867 000f2000
+ 67: MAP006_KOWAMOTE_MASTER_000_old.txt       989fe568 0000      866 000f4000
+ 68: map008_000.txt                           e36242d3 0000      866 000f6000
+ 69: map008_002.txt                           0d60da15 0000      866 000f8000
+ 70: MAP009_MOBILE_MASTER_000.txt             47de344e 0000      867 000fa000
+ 71: MAP010_CURTAIN_MASTER_000.txt            157344b4 0000      714 000fc000
+ 72: MAP011_SNAKE_MASTER_000.txt              2b763a41 0000      866 000fe000
+ 73: MAP011_SNAKE_MASTER_000_000.txt          86bd1298 0000      864 00100000
+ 74: MAP012_WANCORO_MASTER_000.txt            c36de341 0000      866 00102000
+ 75: MAP012_WANCORO_MASTER_001.txt            d86d2ee2 0000      866 00104000
+ 76: MAP013_SWEATER_MASTER_000.txt            28d682f4 0000      865 00106000
+ 77: MAP014_MOKUMOKU_MASTER_000.txt           cc95ffea 0000      866 00108000
+ 78: MAP015_JUNGLE_MASTER_000.txt             298d3270 0000      866 0010a000
+ 79: MAP016_AMIAMI_MASTER_000.txt             e285cc0a 0000      866 0010c000
+ 80: MAP016_AMIAMI_TESTMASTER_000.txt         ccf68bf2 0000      866 0010e000
+ 81: MAP016_COLORCHANGE_000.txt               8efaa5be 0000      866 00110000
+ 82: MAP017_MANTLE_MASTER_000.txt             332b1a36 0000      866 00112000
+ 83: MAP018_BUTTON_MASTER_000.txt             47b74d9a 0000      866 00114000
+ 84: MAP019_LEATHER_MASTER_000.txt            b0b5e08c 0000      866 00116000
+ 85: MAP020_MARUTA_YOUSAI_MASTER_000.txt      8cd5f27a 0000      866 00118000
+ 86: MAP021_LIFT_MASTER_000.txt               6a3c644f 0000      866 0011a000
+ 87: MAP022_BIG_TYOROPU_MASTER_000.txt        b92c6e84 0000      866 0011c000
+ 88: MAP023_BIG_DONBURI_MASTER_000.txt        99e02766 0000      866 0011e000
+ 89: MAP024_SABAKU_MASTER_000.txt             904b1dba 0000      866 00120000
+ 90: MAP025_PYRAMID_MASTER_000.txt            aba8cb9a 0000      865 00122000
+ 91: MAP028_KAZAN_MASTER_000.txt              7e5e09c4 0000      866 00124000
+ 92: MAP029_JYUTAN_MASTER_000.txt             f0f725b3 0000      867 00126000
+ 93: MAP030_PATAPATA_MASTER_000.txt           0785b3cc 0000      866 00128000
+ 94: MAP031_HOTDOG_MASTER_000.txt             70c15406 0000      866 0012a000
+ 95: MAP032_SWEET_MASTER_000.txt              b8da5f9a 0000      867 0012c000
+ 96: MAP033_ICE_BREATH_MASTER_000.txt         13c162d1 0000      865 0012e000
+ 97: MAP034_WATA_MASTER_000.txt               27275ae1 0000      866 00130000
+ 98: MAP035_HIP_MASTER_000.txt                2cabacde 0000      866 00132000
+ 99: MAP037_COCCO_MASTER_000.txt              62aa799e 0000      866 00134000
+100: MAP038_COVERYOR_MASTER_000.txt           971a81b9 0000      867 00136000
+101: MAP039_YUKIGASSEN_MASTER_000.txt         005f05fc 0000      865 00138000
+102: MAP040_WANWANIWA_MASTER_000.txt          1a381a3e 0000      865 0013a000
+103: MAP041_KILLER_MASTER_000.txt             1f206df5 0000      870 0013c000
+104: MAP042_BIGPATA_MASTER_000.txt            bb1ae9c3 0000      867 0013e000
+105: MAP043_HYAKKOIHO_MASTER_000.txt          430a2453 0000      866 00140000
+106: MAP044_IKADA_KUDARI_MASTER_000.txt       3821718e 0000      867 00142000
+107: MAP045_SPYDER_MASTER_000.txt             4832ea05 0000      866 00144000
+108: MAP046_KOWAI_TIKAMEIRO_MASTER_000.txt    2e800f2e 0000      866 00146000
+109: MAP047_YUKIYAMA_NIGHT_MASTER_000.txt     0394d54b 0000      865 00148000
+110: MAP050_ICEBLOCK_MASTER_000.txt           cb8e6366 0000      866 0014a000
+111: MAP057_ANGRYPATA_MASTER_000.txt          72de2d90 0000      866 0014c000
+112: MAP058_KUPPA_MASTER_000.txt              ae2acebb 0000      866 0014e000
+113: MAP059_BEACH_NIGHT_MASTER_000.txt        c86be63f 0000      866 00150000
+114: MAP060_SABAKU_NIGHT_MASTER_000.txt       3de62e2b 0000      866 00152000
+115: MAP061_WATA2_MASTER_000.txt              3b756fa3 0000      866 00154000
+116: MAP063_SETUGEN_MASTER_000.txt            95707019 0000      866 00156000
+117: MAP065_KOUYA_HIRU_MASTER_000.txt         1e931c08 0000      866 00158000
+118: MAP075_NOKKARI_MASTER_000.txt            c7c00d38 0000      864 0015a000
+119: MAP076_TERESA_MASTER_000.txt             bb291e46 0000      867 0015c000
+120: MAP077_YAJIRUSI_MASTER_000.txt           8df76b4b 0000      866 0015e000
+121: MAP078_DOUKUTU_GOGOGO_MASTER_000.txt     e90262ee 0000      866 00160000
+122: MAP079_SUIRYU_MASTER_000.txt             5cfbfe9e 0000      866 00162000
+123: MARCH13_ROM_BOSS_01_MASTER_000.txt       5c6322ea 0000      863 00164000
+124: sample_hard_000.txt                      dbf56195 0000      867 00166000
+125: sample_medium_000.txt                    82609527 0000      867 00168000
+126: sample_soft_000.txt                      065f35ba 0000      866 0016a000
+127: TESTMAP010_SHADERTEST02_000.txt          337387fc 0000      715 0016c000
+128: TESTMAP010_SHADERTEST02_001.txt          4872d39d 0000      714 0016e000
+129: TESTMAP030EX_000.txt                     0d2c0063 0000      866 00170000
+130: TESTMAP030_000.txt                       ba27400e 0000      866 00172000
+131: TESTMAP031_LIGHTTEST_000.txt             bc83348e 0000      866 00174000
+132: TESTMAP032_LIGHTTEST_000.txt             a6a20c5f 0000      866 00176000
+133: test_drawenv_000.txt                     c1662013 0000      867 00178000
+134: TEST_KNITSTAGE_000.txt                   28797346 0000      866 0017a000
+135: TEST_KURAOKA_000.txt                     f2c1740a 0000      867 0017c000
+136: TEST_MAP005_000.txt                      58f4b167 0000      866 0017e000
+137: TEST_OTSUKA_000.txt                      fafee9eb 0000      714 00180000
+138: TEST_PHOTOREALISTIC_000.txt              fba942ae 0000      866 00182000
+139: TEST_WARAWARA02_000.txt                  bb1eaf74 0000      866 00184000
+140: worldmap_000.txt                         7d3c895b 0000      865 00186000
+141: WORLD_TEST2_000.txt                      bc1e5a96 8000      865 00188000
+142: BOSS_MAP001_RAFFLESIA_MASTER_000.txt     0cba6709 0000      234 0018a000
+143: BOSS_MAP004_DONBURI_MASTER_000.txt       4d73a43a 0000      234 0018c000
+144: BOSS_MAP005_DOSSUN_MASTER_000.txt        e645446c 0000      249 0018e000
+145: BOSS_MAP006_SPHINX_MASTER_000.txt        16954903 0000      249 00190000
+146: BOSS_MAP007_BIG_KOKKOSAN_MASTER_000.txt  1c14cbbc 0000      249 00192000
+147: BOSS_MAP008_BIG_PAKKUN_MASTER_000.txt    9bab0ace 0000      249 00194000
+148: BOSS_MAP010_BEBY_KUPPA_MASTER_000.txt    65cd21a6 0000      249 00196000
+149: BOSS_MAP011_BIG_KUPPA_MASTER_000.txt     a01cc597 0000      249 00198000
+150: BOSS_MAP050_BIG_CHOROPU1_MASTER_000.txt  85b64872 0000      234 0019a000
+151: BOSS_MAP051_BIG_CHOROPU2_MASTER_000.txt  4e27760c 0000      234 0019c000
+152: BOSS_MAP052_BIG_CHOROPU3_MASTER_000.txt  1698a3a6 0000      234 0019e000
+153: BOSS_MAP060_BIG_PATAPATA1_MASTER_000.txt afeb9b27 0000      270 001a0000
+154: BOSS_MAP061_BIG_PATAPATA2_MASTER_000.txt b7e3a449 0000      234 001a2000
+155: BOSS_MAP062_BIG_PATAPATA3_MASTER_000.txt bfdbad6b 0000      234 001a4000
+156: DEFAULT.txt                              22e73713 0000      267 001a6000
+157: JUNE_ROM_000.txt                         9db28604 0000      232 001a8000
+158: LIGHT_TEST_000.txt                       51a4489c 0000      218 001aa000
+159: MAP001_MARUTA_MASTER_000.txt             8dae6d88 0000      232 001ac000
+160: MAP002_OSORA_MASTER_000.txt              4598cb4b 0000      270 001ae000
+161: MAP003_HORRORSAN_MASTER_000.txt          19089a36 0000      288 001b0000
+162: MAP004_SUSUME_MASTER_000.txt             93d9cec3 0000      190 001b2000
+163: MAP005_BIYOYON_MASTER_000.txt            ebc175d3 0000      224 001b4000
+164: MAP006_KOWAMOTE_MASTER_000.txt           52dd6fd2 0000      286 001b6000
+165: MAP006_KOWAMOTE_MASTER_000_old.txt       989fe568 0000      286 001b8000
+166: map008_sample_000.txt                    e3cbc084 0000      244 001ba000
+167: map008_sample_001.txt                    f8cb0c25 0000      244 001bc000
+168: map008_sample_002.txt                    0dca57c6 0000      244 001be000
+169: MAP009_MOBILE_MASTER_000.txt             47de344e 0000      272 001c0000
+170: MAP010_CURTAIN_MASTER_000.txt            157344b4 0000      205 001c2000
+171: MAP011_SNAKE_MASTER_000.txt              2b763a41 0000      278 001c4000
+172: MAP011_SNAKE_MASTER_001.txt              407585e2 0000      224 001c6000
+173: MAP012_WANCORO_MASTER_000.txt            c36de341 0000      274 001c8000
+174: MAP012_WANCORO_MASTER_001.txt            d86d2ee2 0000      274 001ca000
+175: MAP012_WANCORO_MASTER_002.txt            ed6c7a83 0000      260 001cc000
+176: MAP013_SWEATER_MASTER_000.txt            28d682f4 0000      286 001ce000
+177: MAP014_MOKUMOKU_MASTER_000.txt           cc95ffea 0000      236 001d0000
+178: MAP015_JUNGLE_MASTER_000.txt             298d3270 0000      282 001d2000
+179: MAP016_AMIAMI_MASTER_000.txt             e285cc0a 0000      282 001d4000
+180: MAP016_AMIAMI_TESTMASTER_000.txt         ccf68bf2 0000      290 001d6000
+181: MAP017_MANTLE_MASTER_000.txt             332b1a36 0000      272 001d8000
+182: MAP018_BUTTON_MASTER_000.txt             47b74d9a 0000      272 001da000
+183: MAP019_LEATHER_MASTER_000.txt            b0b5e08c 0000      458 001dc000
+184: MAP020_MARUTA_YOUSAI_MASTER_000.txt      8cd5f27a 0000      329 001de000
+185: MAP021_LIFT_MASTER_000.txt               6a3c644f 0000      280 001e0000
+186: MAP022_BIG_TYOROPU_MASTER_000.txt        b92c6e84 0000      284 001e2000
+187: MAP023_BIG_DONBURI_MASTER_000.txt        99e02766 0000      284 001e4000
+188: MAP024_SABAKU_MASTER_000.txt             904b1dba 0000      274 001e6000
+189: MAP025_PYRAMID_MASTER_000.txt            aba8cb9a 0000      274 001e8000
+190: MAP028_KAZAN_MASTER_000.txt              7e5e09c4 0000      280 001ea000
+191: MAP029_JYUTAN_MASTER_000.txt             f0f725b3 0000      282 001ec000
+192: MAP030_PATAPATA_MASTER_000.txt           0785b3cc 0000      278 001ee000
+193: MAP031_HOTDOG_MASTER_000.txt             70c15406 0000      234 001f0000
+194: MAP032_SWEET_000.txt                     30dffc97 0000      224 001f2000
+195: MAP032_SWEET_MASTER_000.txt              b8da5f9a 0000      270 001f4000
+196: MAP033_ICE_BREATH_MASTER_000.txt         13c162d1 0000      280 001f6000
+197: MAP034_WATA_MASTER_000.txt               27275ae1 0000      240 001f8000
+198: MAP035_HIP_MASTER_000.txt                2cabacde 0000      268 001fa000
+199: MAP036_AWA_MASTER_000.txt                64914e2f 0000      247 001fc000
+200: MAP037_COCCO_MASTER_000.txt              62aa799e 0000      270 001fe000
+201: MAP038_COVERYOR_MASTER_000.txt           971a81b9 0000      286 00200000
+202: MAP039_YUKIGASSEN_MASTER_000.txt         005f05fc 0000      290 00202000
+203: MAP040_WANWANIWA_MASTER_000.txt          1a381a3e 0000      265 00204000
+204: MAP041_KILLER_MASTER_000.txt             1f206df5 0000      282 00206000
+205: MAP042_BIGPATA_MASTER_000.txt            bb1ae9c3 0000      275 00208000
+206: MAP043_HYAKKOIHO_MASTER_000.txt          430a2453 0000      435 0020a000
+207: MAP044_IKADA_KUDARI_MASTER_000.txt       3821718e 0000      284 0020c000
+208: MAP045_SPYDER_MASTER_000.txt             4832ea05 0000      314 0020e000
+209: MAP046_KOWAI_TIKAMEIRO_MASTER_000.txt    2e800f2e 0000      290 00210000
+210: MAP047_YUKIYAMA_NIGHT_MASTER_000.txt     0394d54b 0000      288 00212000
+211: MAP050_ICEBLOCK_MASTER_000.txt           cb8e6366 0000      226 00214000
+212: MAP057_ANGRYPATA_MASTER_000.txt          72de2d90 0000      278 00216000
+213: MAP058_KUPPA_MASTER_000.txt              ae2acebb 0000      270 00218000
+214: MAP059_BEACH_NIGHT_MASTER_000.txt        c86be63f 0000      292 0021a000
+215: MAP060_SABAKU_NIGHT_MASTER_000.txt       3de62e2b 0000      234 0021c000
+216: MAP061_WATA2_MASTER_000.txt              3b756fa3 0000      264 0021e000
+217: MAP062_BEAN_MASTER_000.txt               31b4e8eb 0000      268 00220000
+218: MAP064_TSUGIHAGI_MASTER_000.txt          f5845fec 0000      279 00222000
+219: MAP065_KOUYA_HIRU_MASTER_000.txt         1e931c08 0000      290 00224000
+220: MAP075_NOKKARI_MASTER_000.txt            c7c00d38 0000      274 00226000
+221: MAP076_TERESA_MASTER_000.txt             bb291e46 0000      282 00228000
+222: MAP077_YAJIRUSI_MASTER_000.txt           8df76b4b 0000      276 0022a000
+223: MAP078_DOUKUTU_GOGOGO_MASTER_000.txt     e90262ee 0000      290 0022c000
+224: MAP079_SUIRYU_MASTER_000.txt             5cfbfe9e 0000      274 0022e000
+225: MINIGAME_AMIDAKUJI_000.txt               4cb3be9a 0000      216 00230000
+226: TESTMAP007_000.txt                       e3dbbd7a 0000      232 00232000
+227: TESTMAP008_000.txt                       ccf178bb 0000      232 00234000
+228: TESTMAP009_SHADERTEST01_000.txt          37dbf83b 0000      232 00236000
+229: TESTMAP010_SHADERTEST02_000.txt          337387fc 0000      232 00238000
+230: TESTMAP014_SHADERTEST03_000.txt          1d1d51e1 0000      232 0023a000
+231: TESTMAP015_SHADERTEST04_000.txt          865810cb 0000      232 0023c000
+232: TESTMAP030EX2_000.txt                    0b5c8685 0000      238 0023e000
+233: TESTMAP030EX_000.txt                     0d2c0063 0000      236 00240000
+234: TESTMAP030_000.txt                       ba27400e 0000      232 00242000
+235: TESTMAP031_LIGHTTEST_000.txt             bc83348e 0000      235 00244000
+236: TESTMAP032_LIGHTTEST_000.txt             a6a20c5f 0000      232 00246000
+237: test_drawenv_000.txt                     c1662013 0000      257 00248000
+238: test_drawenv_001.txt                     d6656bb4 0000      251 0024a000
+239: test_drawenv_002.txt                     eb64b755 0000      256 0024c000
+240: test_drawenv_003.txt                     006402f6 0000      265 0024e000
+241: TEST_KAMIO_000.txt                       d88b28d5 0000      218 00250000
+242: test_kedama_000.txt                      c3cd6f9f 0000      232 00252000
+243: TEST_KNITSTAGE_000.txt                   28797346 0000      258 00254000
+244: TEST_MORI_000.txt                        c14ac20b 0000      230 00256000
+245: TEST_PHOTOREALISTIC_000.txt              fba942ae 0000      248 00258000
+246: ULTRA_VIOLET_000.txt                     10e5550f 0000      246 0025a000
+247: WORLDMAP_000.txt                         fac12c5b 0000      286 0025c000
+248: WORLD_TEST2_000.txt                      bc1e5a96 8000      234 0025e000
+249: drcConfig.txt                            e961d6dd 8000     2010 00260000
+250: BOHBoss01.txt                            f52f6aff 0000    45642 00262000
+251: BOHBoss02_01.txt                         0977f240 0000     3736 0026e000
+252: BOHBoss02_02.txt                         1e773de1 0000    41864 00270000
+253: BOHBoss03.txt                            1f2e0241 0000    55705 0027c000
+254: BOHBoss05.txt                            492c9983 0000     2230 0028a000
+255: BOHBoss06.txt                            5e2be524 0000    45056 0028c000
+256: BOHBoss51.txt                            244cc8cc 0000    12704 00298000
+257: BOHEnemy011Old.txt                       1e637ca6 0000    26982 0029c000
+258: boss01Sequence_New.txt                   b3f0b200 0000     4956 002a4000
+259: boss02Sequence.txt                       9b167b68 0000    11901 002a6000
+260: boss03Sequence.txt                       295c4a49 0000    50243 002aa000
+261: boss04Sequence.txt                       b7a2192a 0000    12445 002b8000
+262: boss05Sequence.txt                       45e7e80b 0000    21257 002bc000
+263: boss06Sequence.txt                       d42db6ec 0000      323 002c2000
+264: boss07Sequence.txt                       627385cd 0000      323 002c4000
+265: boss08Sequence.txt                       f0b954ae 0000    18833 002c6000
+266: boss51Sequence_1.txt                     52c2937c 0000     5556 002cc000
+267: boss51Sequence_2.txt                     67c1df1d 0000    31869 002ce000
+268: boss51Sequence_3.txt                     7cc12abe 0000    49145 002d6000
+269: boss51Sequence_old.txt                   7238816a 0000    38419 002e2000
+270: boss52Sequence.txt                       4be10b75 0000    31017 002ec000
+271: boss53Sequence.txt                       da26da56 0000    21257 002f4000
+272: bossAllParam.txt                         a9ac348f 0000   211966 002fa000
+273: enemyAllParam.txt                        45af0d06 0000    93721 0032e000
+274: friendAllParam.txt                       37aedc00 8000     1906 00346000
+275: boss_map005_000.txt                      8bf339b6 0000      731 00348000
+276: boss_map006_000.txt                      7508f4f7 0000      739 0034a000
+277: boss_map008_000.txt                      47346b79 0000      739 0034c000
+278: boss_map010_000.txt                      bb27c73a 0000      739 0034e000
+279: DEFAULT.txt                              22e73713 0000      734 00350000
+280: map003_000.txt                           55f59a8e 0000      748 00352000
+281: map008_000.txt                           e36242d3 0000      739 00354000
+282: map012_000.txt                           29811516 0000      642 00356000
+283: map014_000.txt                           fbac8b98 0000      732 00358000
+284: map015_000.txt                           e4c246d9 0000      637 0035a000
+285: map016_000.txt                           cdd8021a 0000      637 0035c000
+286: map020_000.txt                           13f6d45d 0000      637 0035e000
+287: map021_000.txt                           fd0c8f9e 0000      738 00360000
+288: map022_000.txt                           e6224adf 0000      738 00362000
+289: map024_000.txt                           b84dc161 0000      738 00364000
+290: map028_000.txt                           5ca4ae65 0000      737 00366000
+291: map029_000.txt                           45ba69a6 0000      749 00368000
+292: map031_000.txt                           b9adc567 0000      738 0036a000
+293: map038_000.txt                           1945e42e 0000      748 0036c000
+294: map041_000.txt                           764efb30 0000      756 0036e000
+295: map044_000.txt                           31902cf3 0000      738 00370000
+296: map059_000.txt                           7b9e0b01 0000      756 00372000
+297: map060_000.txt                           067bab81 0000      755 00374000
+298: map065_000.txt                           93e853c6 0000      750 00376000
+299: map076_000.txt                           399f44d0 0000      748 00378000
+300: sample_fog1000m.txt                      6b49ce61 0000      709 0037a000
+301: sample_fog100m.txt                       0ab95b01 0000      708 0037c000
+302: sample_fog100m_black.txt                 162e23cd 0000      708 0037e000
+303: sample_fog100m_blue.txt                  1ebef3d8 0000      708 00380000
+304: sample_fog100m_green.txt                 114326e1 0000      708 00382000
+305: sample_fog100m_red.txt                   4351c7ab 0000      708 00384000
+306: sample_fog100m_white.txt                 a84861b9 0000      708 00386000
+307: sample_fog10m.txt                        153b1aa1 0000      707 00388000
+308: test_drawenv_000.txt                     c1662013 0000      738 0038a000
+309: test_knitstage_000.txt                   a17d2ee6 0000      755 0038c000
+310: worldmap_000.txt                         7d3c895b 8000      736 0038e000
+311: footShadowConfig.txt                     3cced702 8000     1958 00390000
+312: DEFAULT_000.txt                          7c0b98aa 0000      170 00392000
+313: sample_off_000.txt                       33f50429 0000      170 00394000
+314: sample_on_000.txt                        1b932f5b 0000      169 00396000
+315: TESTMAP030EX2_000.txt                    0b5c8685 0000      169 00398000
+316: TEST_KURAOKA_000.txt                     f2c1740a 0000      170 0039a000
+317: worldmap_000.txt                         7d3c895b 0000      170 0039c000
+318: WORLD_TEST2_000.txt                      bc1e5a96 8000      169 0039e000
+319: BOSS_MAP004_DONBURI_MASTER_000.txt       4d73a43a 0000      798 003a0000
+320: BOSS_MAP005_DOSSUN_MASTER_000.txt        e645446c 0000      798 003a2000
+321: BOSS_MAP006_BIG_HOTDOGN_MASTER_000.txt   624875dd 0000      799 003a4000
+322: BOSS_MAP006_SPHINX_MASTER_000.txt        16954903 0000      798 003a6000
+323: DEFAULT_000.txt                          7c0b98aa 0000      799 003a8000
+324: MAP002_OSORA_MASTER_000.txt              4598cb4b 0000      798 003aa000
+325: MAP003_HORRORSAN_MASTER_000.txt          19089a36 0000      798 003ac000
+326: MAP006_KOWAMOTE_MASTER_000.txt           52dd6fd2 0000      798 003ae000
+327: MAP008_000.txt                           c426e673 0000      799 003b0000
+328: map008_001.txt                           f8618e74 0000      798 003b2000
+329: MAP009_MOBILE_MASTER_000.txt             47de344e 0000      798 003b4000
+330: MAP011_SNAKE_MASTER_000.txt              2b763a41 0000      798 003b6000
+331: MAP011_SNAKE_MASTER_000_000.txt          86bd1298 0000      799 003b8000
+332: MAP012_WANCORO_MASTER_000.txt            c36de341 0000      798 003ba000
+333: MAP012_WANCORO_MASTER_001.txt            d86d2ee2 0000      798 003bc000
+334: MAP013_SWEATER_MASTER_000.txt            28d682f4 0000      798 003be000
+335: MAP014_MOKUMOKU_DESIGN_000.txt           335fb210 0000      799 003c0000
+336: MAP015_JUNGLE_MASTER_000.txt             298d3270 0000      798 003c2000
+337: MAP016_AMIAMI_TESTMASTER_000.txt         ccf68bf2 0000      798 003c4000
+338: MAP017_MANTLE_MASTER_000.txt             332b1a36 0000      798 003c6000
+339: MAP018_BUTTON_MASTER_000.txt             47b74d9a 0000      798 003c8000
+340: MAP019_LEATHER_MASTER_000.txt            b0b5e08c 0000      798 003ca000
+341: MAP020_MARUTA_YOUSAI_MASTER_000.txt      8cd5f27a 0000      798 003cc000
+342: MAP021_LIFT_MASTER_000.txt               6a3c644f 0000      800 003ce000
+343: MAP022_BIG_TYOROPU_MASTER_000.txt        b92c6e84 0000      798 003d0000
+344: MAP023_BIG_DONBURI_MASTER_000.txt        99e02766 0000      798 003d2000
+345: MAP024_SABAKU_MASTER_000.txt             904b1dba 0000      798 003d4000
+346: MAP025_PYRAMID_MASTER_000.txt            aba8cb9a 0000      798 003d6000
+347: MAP025_PYRAMID_MASTER_001.txt            c0a8173b 0000      798 003d8000
+348: MAP028_KAZAN_MASTER_000.txt              7e5e09c4 0000      798 003da000
+349: MAP029_JYUTAN_MASTER_000.txt             f0f725b3 0000      798 003dc000
+350: MAP030_PATAPATA_MASTER_000.txt           0785b3cc 0000      798 003de000
+351: MAP031_HOTDOG_MASTER_000.txt             70c15406 0000      799 003e0000
+352: MAP032_SWEET_MASTER_000.txt              b8da5f9a 0000      798 003e2000
+353: MAP033_ICE_BREATH_MASTER_000.txt         13c162d1 0000      798 003e4000
+354: MAP035_HIP_MASTER_000.txt                2cabacde 0000      798 003e6000
+355: MAP036_AWA_MASTER_000.txt                64914e2f 0000      798 003e8000
+356: MAP037_COCCO_MASTER_000.txt              62aa799e 0000      798 003ea000
+357: MAP038_COVERYOR_MASTER_000.txt           971a81b9 0000      798 003ec000
+358: MAP039_YUKIGASSEN_MASTER_000.txt         005f05fc 0000      799 003ee000
+359: MAP040_WANWANIWA_MASTER_000.txt          1a381a3e 0000      798 003f0000
+360: MAP041_KILLER_MASTER_000.txt             1f206df5 0000      798 003f2000
+361: MAP042_BIGPATA_MASTER_000.txt            bb1ae9c3 0000      799 003f4000
+362: MAP044_IKADA_KUDARI_MASTER_000.txt       3821718e 0000      798 003f6000
+363: MAP045_SPYDER_MASTER_000.txt             4832ea05 0000      798 003f8000
+364: MAP045_SPYDER_MASTER_001.txt             5d3235a6 0000      798 003fa000
+365: MAP046_KOWAI_TIKAMEIRO_MASTER_000.txt    2e800f2e 0000      798 003fc000
+366: MAP046_KOWAI_TIKAMEIRO_MASTER_001.txt    437f5acf 0000      798 003fe000
+367: MAP047_YUKIYAMA_NIGHT_MASTER_000.txt     0394d54b 0000      799 00400000
+368: MAP057_ANGRYPATA_MASTER_000.txt          72de2d90 0000      798 00402000
+369: MAP058_KUPPA_MASTER_000.txt              ae2acebb 0000      798 00404000
+370: MAP059_BEACH_NIGHT_MASTER_000.txt        c86be63f 0000      798 00406000
+371: MAP060_SABAKU_NIGHT_MASTER_000.txt       3de62e2b 0000      798 00408000
+372: MAP061_WATA2_MASTER_000.txt              3b756fa3 0000      800 0040a000
+373: MAP063_SETUGEN_MASTER_000.txt            95707019 0000      798 0040c000
+374: MAP065_KOUYA_HIRU_MASTER_000.txt         1e931c08 0000      798 0040e000
+375: MAP075_NOKKARI_MASTER_000.txt            c7c00d38 0000      798 00410000
+376: MAP076_TERESA_MASTER_000.txt             bb291e46 0000      798 00412000
+377: MAP077_YAJIRUSI_MASTER_000.txt           8df76b4b 0000      798 00414000
+378: MAP077_YAJIRUSI_MASTER_001.txt           a2f6b6ec 0000      798 00416000
+379: MAP078_DOUKUTU_GOGOGO_MASTER_000.txt     e90262ee 0000      798 00418000
+380: MAP079_SUIRYU_MASTER_000.txt             5cfbfe9e 0000      798 0041a000
+381: sample_all_soft_000.txt                  11e36d6a 0000      798 0041c000
+382: sample_white_000.txt                     53969e0f 0000      798 0041e000
+383: TESTMAP030EX2_000.txt                    0b5c8685 0000      798 00420000
+384: TESTMAP030EX_000.txt                     0d2c0063 0000      754 00422000
+385: TESTMAP030_000.txt                       ba27400e 0000      753 00424000
+386: TEST_KURAOKA_000.txt                     f2c1740a 0000      799 00426000
+387: worldmap_000.txt                         7d3c895b 0000      799 00428000
+388: WORLD_TEST2_000.txt                      bc1e5a96 8000      799 0042a000
+389: keito_detail.txt                         6c3d3bbc 0000     1784 0042c000
+390: keito_object.txt                         3d71f5b8 0000     1230 0042e000
+391: keito_stage.txt                          569245b5 8000     2807 00430000
+392: boss_map001_000.txt                      e79c4cb2 0000      245 00432000
+393: boss_map004_000.txt                      a2dd7e75 0000      508 00434000
+394: boss_map0050_000.txt                     11cebd6e 0000      772 00436000
+395: boss_map0051_000.txt                     fae478af 0000      772 00438000
+396: boss_map0052_000.txt                     e3fa33f0 0000      772 0043a000
+397: boss_map005_000.txt                      8bf339b6 0000      513 0043c000
+398: boss_map0061_000.txt                     b785ae78 0000      772 0043e000
+399: boss_map0062_000.txt                     a09b69b9 0000      772 00440000
+400: boss_map006_000.txt                      7508f4f7 0000      772 00442000
+401: boss_map007_000.txt                      5e1eb038 0000      772 00444000
+402: boss_map008_000.txt                      47346b79 0000      507 00446000
+403: boss_map010_000.txt                      bb27c73a 0000      772 00448000
+404: boss_map011_000.txt                      a43d827b 0000      772 0044a000
+405: boss_map060_000.txt                      6a4dd427 0000      774 0044c000
+406: DEFAULT.txt                              22e73713 0000      502 0044e000
+407: map002_000.txt                           6cdfdf4d 0000      774 00450000
+408: map003_000.txt                           55f59a8e 0000      246 00452000
+409: map004_000.txt                           3f0b55cf 0000      511 00454000
+410: map005_000.txt                           28211110 0000      508 00456000
+411: map006_000.txt                           1136cc51 0000      791 00458000
+412: map008_000.txt                           e36242d3 0000      774 0045a000
+413: map009_000.txt                           cc77fe14 0000      774 0045c000
+414: map010_000.txt                           57559e94 0000      509 0045e000
+415: map011_000.txt                           406b59d5 0000      502 00460000
+416: map011_001.txt                           556aa576 0000      504 00462000
+417: map012_000.txt                           29811516 0000      506 00464000
+418: map012_001.txt                           3e8060b7 0000      774 00466000
+419: map013_000.txt                           1296d057 0000      548 00468000
+420: map014_000.txt                           fbac8b98 0000      506 0046a000
+421: map015_000.txt                           e4c246d9 0000      774 0046c000
+422: map016_000.txt                           cdd8021a 0000      507 0046e000
+423: map016_001.txt                           e2d74dbb 0000      516 00470000
+424: map016_002.txt                           f7d6995c 0000      514 00472000
+425: map016_003.txt                           0cd5e4fd 0000      515 00474000
+426: map016_004.txt                           21d5309e 0000      518 00476000
+427: map016_005.txt                           36d47c3f 0000      523 00478000
+428: map016_006.txt                           4bd3c7e0 0000      521 0047a000
+429: map016_007.txt                           60d31381 0000      522 0047c000
+430: map016_008.txt                           75d25f22 0000      518 0047e000
+431: map016_009.txt                           8ad1aac3 0000      517 00480000
+432: map016_colorchenge_000.txt               fb03f4e2 0000      505 00482000
+433: map016_colorchenge_001.txt               10034083 0000      512 00484000
+434: map016_colorchenge_002.txt               25028c24 0000      508 00486000
+435: map016_colorchenge_003.txt               3a01d7c5 0000      511 00488000
+436: map016_colorchenge_004.txt               4f012366 0000      514 0048a000
+437: map016_colorchenge_005.txt               64006f07 0000      516 0048c000
+438: map016_colorchenge_006.txt               78ffbaa8 0000      519 0048e000
+439: map016_colorchenge_007.txt               8dff0649 0000      518 00490000
+440: map016_colorchenge_008.txt               a2fe51ea 0000      516 00492000
+441: map016_colorchenge_009.txt               b7fd9d8b 0000      515 00494000
+442: map016_lighttest_000.txt                 ad13d2a9 0000      505 00496000
+443: map016_lighttest_001.txt                 c2131e4a 0000      517 00498000
+444: map016_lighttest_002.txt                 d71269eb 0000      513 0049a000
+445: map016_lighttest_003.txt                 ec11b58c 0000      516 0049c000
+446: map016_lighttest_004.txt                 0111012d 0000      506 0049e000
+447: map016_lighttest_005.txt                 16104cce 0000      511 004a0000
+448: map016_lighttest_006.txt                 2b0f986f 0000      508 004a2000
+449: map016_lighttest_007.txt                 400ee410 0000      508 004a4000
+450: map016_lighttest_008.txt                 550e2fb1 0000      508 004a6000
+451: map016_lighttest_009.txt                 6a0d7b52 0000      515 004a8000
+452: map016_test_000.txt                      609974a9 0000      506 004aa000
+453: map016_test_001.txt                      7598c04a 0000      513 004ac000
+454: map016_test_002.txt                      8a980beb 0000      510 004ae000
+455: map016_test_003.txt                      9f97578c 0000      511 004b0000
+456: map016_test_004.txt                      b496a32d 0000      514 004b2000
+457: map016_test_005.txt                      c995eece 0000      519 004b4000
+458: map016_test_006.txt                      de953a6f 0000      519 004b6000
+459: map016_test_007.txt                      f3948610 0000      518 004b8000
+460: map016_test_008.txt                      0893d1b1 0000      516 004ba000
+461: map016_test_009.txt                      1d931d52 0000      515 004bc000
+462: map017_000.txt                           b6edbd5b 0000      774 004be000
+463: map018_000.txt                           a003789c 0000      508 004c0000
+464: map019_000.txt                           891933dd 0000      508 004c2000
+465: map020_000.txt                           13f6d45d 0000      506 004c4000
+466: map021_000.txt                           fd0c8f9e 0000      774 004c6000
+467: map022_000.txt                           e6224adf 0000      774 004c8000
+468: map023_000.txt                           cf380620 0000      774 004ca000
+469: map024_000.txt                           b84dc161 0000      508 004cc000
+470: map025_000.txt                           a1637ca2 0000      513 004ce000
+471: map028_000.txt                           5ca4ae65 0000      508 004d0000
+472: map029_000.txt                           45ba69a6 0000      508 004d2000
+473: map030_000.txt                           d0980a26 0000      774 004d4000
+474: map031_000.txt                           b9adc567 0000      774 004d6000
+475: map032_000.txt                           a2c380a8 0000      774 004d8000
+476: map033_000.txt                           8bd93be9 0000      509 004da000
+477: map034_000.txt                           74eef72a 0000      506 004dc000
+478: map035_000.txt                           5e04b26b 0000      506 004de000
+479: map037_000.txt                           303028ed 0000      526 004e0000
+480: map038_000.txt                           1945e42e 0000      508 004e2000
+481: map040_000.txt                           8d393fef 0000      505 004e4000
+482: map040_001.txt                           a2388b90 0000      515 004e6000
+483: map040_002.txt                           b737d731 0000      510 004e8000
+484: map040_003.txt                           cc3722d2 0000      513 004ea000
+485: map040_004.txt                           e1366e73 0000      514 004ec000
+486: map040_005.txt                           f635ba14 0000      519 004ee000
+487: map040_006.txt                           0b3505b5 0000      519 004f0000
+488: map040_007.txt                           20345156 0000      520 004f2000
+489: map040_008.txt                           35339cf7 0000      516 004f4000
+490: map040_009.txt                           4a32e898 0000      515 004f6000
+491: map041_000.txt                           764efb30 0000      772 004f8000
+492: map042_000.txt                           5f64b671 0000      774 004fa000
+493: map043_000.txt                           487a71b2 0000      774 004fc000
+494: map044_000.txt                           31902cf3 0000      497 004fe000
+495: map045_000.txt                           1aa5e834 0000      565 00500000
+496: map046_000.txt                           03bba375 0000      508 00502000
+497: map047_000.txt                           ecd15eb6 0000      776 00504000
+498: map047_001.txt                           01d0aa57 0000      769 00506000
+499: map047_002.txt                           16cff5f8 0000      769 00508000
+500: map047_003.txt                           2bcf4199 0000      769 0050a000
+501: map047_005.txt                           55cdd8db 0000      769 0050c000
+502: map047_006.txt                           6acd247c 0000      769 0050e000
+503: map047_007.txt                           7fcc701d 0000      770 00510000
+504: map047_008.txt                           94cbbbbe 0000      768 00512000
+505: map047_009.txt                           a9cb075f 0000      770 00514000
+506: map050_000.txt                           49da75b8 0000      774 00516000
+507: map057_000.txt                           a972947f 0000      775 00518000
+508: map058_000.txt                           92884fc0 0000      775 0051a000
+509: map059_000.txt                           7b9e0b01 0000      508 0051c000
+510: map060_000.txt                           067bab81 0000      508 0051e000
+511: map061_000.txt                           ef9166c2 0000      506 00520000
+512: map063_000.txt                           c1bcdd44 0000      505 00522000
+513: map063_001.txt                           d6bc28e5 0000      513 00524000
+514: map063_002.txt                           ebbb7486 0000      510 00526000
+515: map063_003.txt                           00bac027 0000      511 00528000
+516: map063_004.txt                           15ba0bc8 0000      514 0052a000
+517: map063_005.txt                           2ab95769 0000      519 0052c000
+518: map063_006.txt                           3fb8a30a 0000      519 0052e000
+519: map063_007.txt                           54b7eeab 0000      520 00530000
+520: map063_008.txt                           69b73a4c 0000      516 00532000
+521: map063_009.txt                           7eb685ed 0000      515 00534000
+522: map065_000.txt                           93e853c6 0000      548 00536000
+523: map075_000.txt                           5089898f 0000      774 00538000
+524: map075_001.txt                           6588d530 0000      769 0053a000
+525: map075_002.txt                           7a8820d1 0000      769 0053c000
+526: map075_003.txt                           8f876c72 0000      771 0053e000
+527: map075_004.txt                           a486b813 0000      769 00540000
+528: map075_005.txt                           b98603b4 0000      769 00542000
+529: map075_006.txt                           ce854f55 0000      769 00544000
+530: map075_007.txt                           e3849af6 0000      768 00546000
+531: map075_008.txt                           f883e697 0000      768 00548000
+532: map075_009.txt                           0d833238 0000      770 0054a000
+533: map076_000.txt                           399f44d0 0000      246 0054c000
+534: map077_000.txt                           22b50011 0000      565 0054e000
+535: map078_000.txt                           0bcabb52 0000      508 00550000
+536: map079_000.txt                           f4e07693 0000      774 00552000
+537: sample_blue.txt                          841be9bf 0000      502 00554000
+538: sample_down.txt                          5e60177f 0000      500 00556000
+539: sample_green.txt                         5002bf80 0000      502 00558000
+540: sample_red.txt                           8b110e9a 0000      502 0055a000
+541: testmap007_000.txt                       11b0185a 0000      247 0055c000
+542: testmap008_000.txt                       fac5d39b 0000      247 0055e000
+543: testmap009_000.txt                       e3db8edc 0000      410 00560000
+544: testmap010_000.txt                       6eb92f5c 0000      357 00562000
+545: testmap011_000.txt                       57ceea9d 0000      248 00564000
+546: testmap014_000.txt                       13101c60 0000      356 00566000
+547: testmap015_000.txt                       fc25d7a1 0000      251 00568000
+548: testmap023_000.txt                       e69b96e8 0000      254 0056a000
+549: testmap025_000.txt                       b8c70d6a 0000     1885 0056c000
+550: testmap029_000.txt                       5d1dfa6e 0000      617 0056e000
+551: testmap030ex2_000.txt                    747c69a5 0000      502 00570000
+552: testmap030ex_000.txt                     d224c283 0000      506 00572000
+553: testmap030_000.txt                       e7fb9aee 0000      508 00574000
+554: testmap031_000.txt                       d111562f 0000      508 00576000
+555: testmap032_000.txt                       ba271170 0000      508 00578000
+556: testphotorealistic_000.txt               ae6362bf 0000      357 0057a000
+557: test_drawenv_000.txt                     c1662013 0000      774 0057c000
+558: test_kedama_000.txt                      c3cd6f9f 0000      774 0057e000
+559: test_knitstage_000.txt                   a17d2ee6 0000      508 00580000
+560: test_map004_000.txt                      5efa8506 0000      511 00582000
+561: test_map005_000.txt                      48104047 0000      508 00584000
+562: test_map006_000.txt                      3125fb88 0000     1963 00586000
+563: test_mori_000.txt                        ef4d130b 0000      506 00588000
+564: test_nuitsuke_000.txt                    343c57cc 0000     2123 0058a000
+565: test_uv_regulation_x6_ver6_000.txt       2cfdee1f 0000     2123 0058c000
+566: worldmap_000.txt                         7d3c895b 0000      770 0058e000
+567: world_test2_000.txt                      9f36adb6 8000      246 00590000
+568: bonus_map000_camera.txt                  28c0ed8a 0000     1249 00592000
+569: bonus_map001_camera.txt                  d0194323 0000     1249 00594000
+570: bonus_map002_camera.txt                  777198bc 0000     1248 00596000
+571: bonus_map003_camera.txt                  1ec9ee55 0000     1248 00598000
+572: bonus_map004_camera.txt                  c62243ee 0000     1249 0059a000
+573: bonus_map005_camera.txt                  6d7a9987 0000     1249 0059c000
+574: bonus_map006_camera.txt                  14d2ef20 0000     1247 0059e000
+575: bonus_map007_camera.txt                  bc2b44b9 0000     1249 005a0000
+576: bonus_map008_camera.txt                  63839a52 0000     1250 005a2000
+577: bonus_map009_camera.txt                  0adbefeb 0000     1249 005a4000
+578: boss_map001_camera.txt                   034802bb 0000     2721 005a6000
+579: boss_map003_camera.txt                   51f8aded 0000     1688 005a8000
+580: boss_map004_camera.txt                   f9510386 0000    10895 005aa000
+581: boss_map005_camera.txt                   a0a9591f 0000     8075 005ae000
+582: boss_map006_camera.txt                   4801aeb8 0000     5529 005b0000
+583: boss_map007_camera.txt                   ef5a0451 0000     6247 005b2000
+584: boss_map008_camera.txt                   96b259ea 0000    10176 005b4000
+585: boss_map010_camera.txt                   ea357c03 0000      758 005b8000
+586: boss_map011_camera.txt                   918dd19c 0000     4261 005ba000
+587: boss_map050_camera.txt                   234cb787 0000     2692 005bc000
+588: boss_map051_camera.txt                   caa50d20 0000     2692 005be000
+589: boss_map052_camera.txt                   71fd62b9 0000     5669 005c0000
+590: boss_map060_camera.txt                   b1928668 0000    18405 005c2000
+591: boss_map061_camera.txt                   58eadc01 0000    18268 005c8000
+592: boss_map062_camera.txt                   0043319a 0000    18272 005ce000
+593: default.txt                              8192c0f3 0000      405 005d4000
+594: map002_camera.txt                        83bf4e9e 0000     1339 005d6000
+595: map003_camera.txt                        2b17a437 0000     4165 005d8000
+596: map010_camera.txt                        c354724d 0000    25998 005da000
+597: map012_camera.txt                        12051d7f 0000     4715 005e2000
+598: map013_camera.txt                        b95d7318 0000     1053 005e4000
+599: map014_camera.txt                        60b5c8b1 0000     3366 005e6000
+600: map016_camera.txt                        af6673e3 0000     3232 005e8000
+601: map016_test_camera.txt                   7f49cb9a 0000     2429 005ea000
+602: map017_camera.txt                        56bec97c 0000    10965 005ec000
+603: map018_camera.txt                        fe171f15 0000    11104 005f0000
+604: map019.txt                               b1c78d66 0000      288 005f4000
+605: map019_camera.txt                        a56f74ae 0000     3229 005f6000
+606: map020_camera.txt                        519a412e 0000      727 005f8000
+607: map021_camera.txt                        f8f296c7 0000     2097 005fa000
+608: map022_camera.txt                        a04aec60 0000     9217 005fc000
+609: map023_camera.txt                        47a341f9 0000     8782 00600000
+610: map025_camera.txt                        9653ed2b 0000     5240 00604000
+611: map028_camera.txt                        8c5cedf6 0000     3840 00606000
+612: map029_camera.txt                        33b5438f 0000     5217 00608000
+613: map031_camera.txt                        873865a8 0000     8092 0060a000
+614: map032_camera.txt                        2e90bb41 0000     2461 0060c000
+615: map033_camera.txt                        d5e910da 0000     4121 0060e000
+616: map034_camera.txt                        7d416673 0000     9147 00610000
+617: map035_camera.txt                        2499bc0c 0000     3229 00614000
+618: map036_camera.txt                        cbf211a5 0000     7811 00616000
+619: map037_camera.txt                        734a673e 0000    10613 00618000
+620: map038_camera.txt                        1aa2bcd7 0000     3840 0061c000
+621: map039_camera.txt                        c1fb1270 0000      256 0061e000
+622: map040_camera.txt                        6e25def0 0000     7187 00620000
+623: map042_camera.txt                        bcd68a22 0000    11064 00622000
+624: map044_camera.txt                        0b873554 0000    10267 00626000
+625: map045_camera.txt                        b2df8aed 0000     7811 0062a000
+626: map047_camera.txt                        0190361f 0000    34264 0062c000
+627: map050_camera.txt                        fc6badd1 0000     2129 00636000
+628: map057_camera.txt                        8fd60500 0000     9217 00638000
+629: map058_camera.txt                        372e5a99 0000     2373 0063c000
+630: map060_camera.txt                        8ab17cb2 0000    11666 0063e000
+631: map061_camera.txt                        3209d24b 0000     6410 00642000
+632: map062_camera.txt                        d96227e4 0000     5913 00644000
+633: map064_camera.txt                        2812d316 0000    17049 00646000
+634: map075_camera.txt                        5db0f790 0000     9218 0064c000
+635: map076_camera.txt                        05094d29 0000     3639 00650000
+636: map077_camera.txt                        ac61a2c2 0000     5807 00652000
+637: map078_camera.txt                        53b9f85b 0000      516 00654000
+638: map079_camera.txt                        fb124df4 0000     4697 00656000
+639: map080_camera.txt                        a73d1a74 0000     2258 00658000
+640: testmap023_camera.txt                    cda77781 0000     7118 0065a000
+641: testmap028_camera.txt                    1261237e 0000     3481 0065c000
+642: test_bundo_camera.txt                    40c780dd 0000     9821 0065e000
+643: test_kobayashi_camera.txt                e34f0228 0000     2592 00662000
+644: test_matsuyama_camera.txt                00bd0c0f 0000      742 00664000
+645: test_mori2_camera.txt                    ea6a84be 0000     9815 00666000
+646: test_mori_camera.txt                     55c8d3ac 0000     1069 0066a000
+647: test_nishizaka_play_camera.txt           230319fc 0000     4025 0066c000
+648: test_sei001_camera.txt                   945ebbb7 0000     2289 0066e000
+649: test_sei002_camera.txt                   3bb71150 0000     3850 00670000
+650: test_suda_001_camera.txt                 53eafa0a 0000     2086 00672000
+651: test_warawara02_camera.txt               f546d3ad 0000     2167 00674000
+652: test_warawara_camera.txt                 e221390b 8000     2243 00676000
+653: minigameAmidaConfig.txt                  afae406f 0000     1180 00678000
+654: minigameSeekYoshiConfig.txt              358416f7 0000      830 0067a000
+655: minigameSeekYoshi_patternSet01.txt       d53a1b33 0000    25200 0067c000
+656: minigameSeekYoshi_patternSet02.txt       ea3966d4 0000    25198 00684000
+657: minigameSeekYoshi_patternSet03.txt       ff38b275 0000    25198 0068c000
+658: minigameSeekYoshi_patternSet04.txt       1437fe16 0000    25198 00694000
+659: minigameSeekYoshi_patternSet05.txt       293749b7 0000    25198 0069c000
+660: minigameSeekYoshi_stand.txt              24f15802 8000     9347 006a4000
+661: boss_map001_000.txt                      e79c4cb2 0000     2793 006a8000
+662: boss_map004_000.txt                      a2dd7e75 0000     2693 006aa000
+663: boss_map005_000.txt                      8bf339b6 0000     2632 006ac000
+664: boss_map006_000.txt                      7508f4f7 0000     3249 006ae000
+665: boss_map007_000.txt                      5e1eb038 0000     3357 006b0000
+666: boss_map008_000.txt                      47346b79 0000     3418 006b2000
+667: boss_map010_000.txt                      bb27c73a 0000     3357 006b4000
+668: boss_map011_000.txt                      a43d827b 0000     3357 006b6000
+669: boss_map050_000.txt                      adac9e5e 0000     3357 006b8000
+670: boss_map051_000.txt                      96c2599f 0000     3357 006ba000
+671: boss_map052_000.txt                      7fd814e0 0000     3357 006bc000
+672: boss_map060_000.txt                      6a4dd427 0000     3356 006be000
+673: boss_map061_000.txt                      53638f68 0000     3357 006c0000
+674: boss_map062_000.txt                      3c794aa9 0000     3357 006c2000
+675: DEFAULT.txt                              22e73713 0000     2833 006c4000
+676: map002_000.txt                           6cdfdf4d 0000     3357 006c6000
+677: map003_000.txt                           55f59a8e 0000     1930 006c8000
+678: map004_000.txt                           3f0b55cf 0000     2387 006ca000
+679: map005_000.txt                           28211110 0000     2766 006cc000
+680: map006_000.txt                           1136cc51 0000     2767 006ce000
+681: map008_000.txt                           e36242d3 0000     3249 006d0000
+682: map009_000.txt                           cc77fe14 0000     2767 006d2000
+683: map010_000.txt                           57559e94 0000     2784 006d4000
+684: map011_000.txt                           406b59d5 0000     2767 006d6000
+685: map012_000.txt                           29811516 0000     2839 006d8000
+686: map012_001.txt                           3e8060b7 0000     2839 006da000
+687: map013_000.txt                           1296d057 0000     2638 006dc000
+688: map014_000.txt                           fbac8b98 0000     3311 006de000
+689: map015_000.txt                           e4c246d9 0000     3356 006e0000
+690: map016_000.txt                           cdd8021a 0000     3418 006e2000
+691: map016_colorchange_000.txt               5da29e7e 0000     2803 006e4000
+692: map016_lighttest_000.txt                 ad13d2a9 0000     2789 006e6000
+693: map016_test_000.txt                      609974a9 0000     2899 006e8000
+694: map017_000.txt                           b6edbd5b 0000     3396 006ea000
+695: map018_000.txt                           a003789c 0000     2697 006ec000
+696: map019_000.txt                           891933dd 0000     2805 006ee000
+697: map020_000.txt                           13f6d45d 0000     3356 006f0000
+698: map021_000.txt                           fd0c8f9e 0000     3249 006f2000
+699: map022_000.txt                           e6224adf 0000     3414 006f4000
+700: map023_000.txt                           cf380620 0000     3414 006f6000
+701: map024_000.txt                           b84dc161 0000     3420 006f8000
+702: map025_000.txt                           a1637ca2 0000     3420 006fa000
+703: map028_000.txt                           5ca4ae65 0000     3420 006fc000
+704: map029_000.txt                           45ba69a6 0000     3356 006fe000
+705: map030_000.txt                           d0980a26 0000     3356 00700000
+706: map031_000.txt                           b9adc567 0000     2839 00702000
+707: map032_000.txt                           a2c380a8 0000     2767 00704000
+708: map033_000.txt                           8bd93be9 0000     3315 00706000
+709: map034_000.txt                           74eef72a 0000     3249 00708000
+710: map035_000.txt                           5e04b26b 0000     2899 0070a000
+711: map037_000.txt                           303028ed 0000     3249 0070c000
+712: map038_000.txt                           1945e42e 0000     2695 0070e000
+713: map040_000.txt                           8d393fef 0000     2899 00710000
+714: map041_000.txt                           764efb30 0000     2695 00712000
+715: map042_000.txt                           5f64b671 0000     3356 00714000
+716: map043_000.txt                           487a71b2 0000     3356 00716000
+717: map044_000.txt                           31902cf3 0000     3356 00718000
+718: map045_000.txt                           1aa5e834 0000     2638 0071a000
+719: map046_000.txt                           03bba375 0000     3420 0071c000
+720: map047_000.txt                           ecd15eb6 0000     2839 0071e000
+721: map050_000.txt                           49da75b8 0000     3356 00720000
+722: map057_000.txt                           a972947f 0000     3414 00722000
+723: map058_000.txt                           92884fc0 0000     3357 00724000
+724: map059_000.txt                           7b9e0b01 0000     3249 00726000
+725: map060_000.txt                           067bab81 0000     3356 00728000
+726: map063_000.txt                           c1bcdd44 0000     2899 0072a000
+727: map065_000.txt                           93e853c6 0000     2638 0072c000
+728: map075_000.txt                           5089898f 0000     2839 0072e000
+729: map076_000.txt                           399f44d0 0000     1930 00730000
+730: map077_000.txt                           22b50011 0000     2638 00732000
+731: map079_000.txt                           f4e07693 0000     3414 00734000
+732: sample_100m_single.txt                   428d8266 0000     3460 00736000
+733: sample_30m_single.txt                    1925e538 0000     3451 00738000
+734: sample_30m_single_red.txt                1adbd142 0000     3451 0073a000
+735: testmap007_000.txt                       11b0185a 0000     1913 0073c000
+736: testmap008_000.txt                       fac5d39b 0000     1921 0073e000
+737: testmap009_000.txt                       e3db8edc 0000     1917 00740000
+738: testmap010_000.txt                       6eb92f5c 0000     1920 00742000
+739: testmap011_000.txt                       57ceea9d 0000     1921 00744000
+740: testmap014_000.txt                       13101c60 0000     1917 00746000
+741: testmap015_000.txt                       fc25d7a1 0000     1919 00748000
+742: testmap023_000.txt                       e69b96e8 0000     1919 0074a000
+743: testmap029_000.txt                       5d1dfa6e 0000     1919 0074c000
+744: testmap030ex2_000.txt                    747c69a5 0000     2804 0074e000
+745: testmap030ex_000.txt                     d224c283 0000     2787 00750000
+746: testmap030_000.txt                       e7fb9aee 0000     2789 00752000
+747: testmap031_000.txt                       d111562f 0000     2759 00754000
+748: testmap032_000.txt                       ba271170 0000     2759 00756000
+749: testPhotoRealistic_000.txt               35821d7f 0000     1919 00758000
+750: test_drawenv_000.txt                     c1662013 0000     2839 0075a000
+751: test_kamio_000.txt                       9a7fe9f5 0000     2778 0075c000
+752: test_kedama_000.txt                      c3cd6f9f 0000     3418 0075e000
+753: test_knitstage_000.txt                   a17d2ee6 0000     2789 00760000
+754: test_mori_000.txt                        ef4d130b 0000     3309 00762000
+755: worldmap_000.txt                         7d3c895b 0000     2851 00764000
+756: world_test2_000.txt                      9f36adb6 8000     3416 00766000
+757: default.txt                              8192c0f3 8000       62 00768000
+758: TESTANIM00.txt                           f1f2bddb 8000     8459 0076a000
+759: worldmap.txt                             3dc44224 0000     9623 0076e000
+760: worldmap_camera.txt                      d3f3b57c 0000     4036 00772000
+761: worldmap_e3.txt                          fd470fe3 0000     5095 00774000
+762: worldmap_e3_camera.txt                   1e7e4e43 0000     3990 00776000
+763: worldmap_e3_stand.txt                    dff92304 0000    16916 00778000
+764: worldmap_set_data.txt                    48944aa0 0000     3277 0077e000
+765: worldmap_stand.txt                       02eec835 8000    16916 00780000
+
+  vim: set ft=hexd:
